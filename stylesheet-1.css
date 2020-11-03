@@ -1,0 +1,30 @@
+.box-1{
+  display: flex;
+  background-color: rgb(255, 0, 212);
+  padding: 20px;
+}
+.box-2{
+display: flex;
+}
+.box-3{
+  display: flex;
+  background-color: rgb(255, 0, 170);
+  padding: 20px;
+
+}
+.box-2-item-1{
+  display: flex;
+  background-color: rgb(238, 34, 238);
+  flex-grow: 1;
+  padding: 20px;
+  margin: 5px;
+  height: 150px;
+}
+.box-2-item-2{
+  display: flex;
+  background-color: rgb(241, 23, 231);
+  flex-grow: 1;
+  padding: 20px;
+  margin: 5px;
+  height: 150px;
+}
