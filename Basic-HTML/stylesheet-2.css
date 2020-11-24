@@ -1,0 +1,51 @@
+.Header {
+display: flex;
+background-color: skyblue;
+height: 40px;
+justify-content: center;
+color: white;
+}
+.middle-content {
+    display: flex;
+    align-content: space-around;
+}
+.sidebar {
+    display: flex;
+    background-color: lightgreen;
+    flex-grow: 1;
+    padding: 20px;
+    margin: 5px;
+    height: 250px;
+    justify-content: center;
+    color: white;
+}
+.middle-content-column {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 5;
+}
+.main-content {
+    display: flex;
+    background-color: yellow;
+    flex-grow: 10;
+    padding: 20px;
+    margin: 5px;
+    justify-content: center;
+    color: white;
+}
+.extra-content {
+    display: flex;
+    background-color: gray;
+    flex-grow: 1;
+    padding: 20px;
+    margin: 5px;
+    justify-content: center;
+    color: white;
+}
+.footer {
+    display: flex;
+    background-color: orange;
+    height: 40px;
+    justify-content: center;
+    color: white;
+} 
