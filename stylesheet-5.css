@@ -1,0 +1,218 @@
+.header{
+    display: flex;
+    background-color: white;
+}
+.image{
+    display: flex;
+    height: 70px;
+    margin-left: 100px;
+    margin-right: 800px;
+}
+.button-header{
+    display: flex;
+    background-color: white;
+    height: 40px;
+    width: 100px;
+    color: black;
+    text-align: center;
+    border: none;
+    margin-top: 30px;
+}
+.images{
+    margin-top: 12px;
+}
+.front{
+    display: flex;
+    height: 1000px;
+    text-align: center;
+    background-image: url("C:/Users/Jalaj/Downloads/ex-1/images/img-1.jpg");
+    opacity: 0.8;
+    justify-content: space-between;
+    flex-direction: column;
+    color: white;
+}
+.overlay{
+    position: absolute;
+    width: 99.1%;
+    height: 1000px;
+    background: rgb(7, 2, 80);
+    opacity: 0.9;
+}
+.heading{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size:80px;
+    z-index: 1;
+    color: white;
+}
+.subhead{
+    margin-top: 600px;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 20px;
+    z-index: 1;
+}
+.front-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.front-button-1{
+  background-color: #d1bc00;
+  border: solid #d1bc00 2px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  z-index: 1;
+  width: 200px; 
+  margin-left: 700px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.front-button-2{
+    background-color: #f7df0800;
+    border: solid white 2px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    z-index: 1;
+    width: 200px;    
+    margin-right: 700px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .image-2{
+    z-index: 1;
+    margin-bottom: 30px;
+  }
+  .second{
+      display: flex;
+      background-color: lavender;
+  }
+  .text{
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      margin: 50px;
+  }
+  .image-3{
+      margin: 50px;
+      flex-grow: 1;
+  }
+    .s-head{
+      font-size: 50px;
+}
+    .s-body{
+      font-size: 15px;
+      text-align: left;
+      letter-spacing: 1px;
+      line-height: 1.5;
+}
+.lists{
+    margin-top: 70px;
+}
+.diamond{
+    list-style-image: url("C:/Users/Jalaj/Downloads/i-diamond_b.svg" );
+    list-style-position: inside;
+    z-index: 1;
+    line-height: 50px;
+}
+.wallet{
+    list-style-image: url("C:/Users/Jalaj/Downloads/i-wallet_b.svg" );
+    list-style-position: inside;
+    z-index: 1;
+    line-height: 50px;
+}
+.trophy{
+    list-style-image: url("C:/Users/Jalaj/Downloads/i-trophy_b.svg" );
+    list-style-position: inside;
+    z-index: 1;
+    line-height: 50px;
+}
+.third{
+    display: flex;
+    position: relative;
+    background-image: url("C:/Users/Jalaj/Downloads/ex-1/images/img-2.jpg");
+    height: 1000px;
+    opacity: 0.8;
+    text-align: center;
+    justify-content: space-between;
+}
+.overlay-2{
+    position: relative;
+    background: rgb(7, 2, 80);
+    opacity: 0.9;
+    height: 1000px;
+    width: 100%;
+}
+.heading-2{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size:80px;
+    z-index: 1;
+    color: white;
+}
+.bullets{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-top: 500px;
+    z-index: 1;
+    color: white;
+    justify-content: space-between;
+}
+.digi-mar{
+    position: relative;
+    flex-grow: 1;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.web-dev{
+    position: relative  ;
+    flex-grow: 1;
+    margin-right: 50px;
+    text-align: center;
+}
+.ui-design{
+    position: relative;
+    flex-grow: 1;
+    margin-right: 100px;
+    text-align: center;
+}
+.image-design{
+    border: 25px solid rgba(255, 255, 255, 0.158);
+    border-radius: 100px;
+    align-content: center;
+    justify-content: center;
+
+}
+.page-3-text{
+    margin-top: 50px;
+    font-size: 25px;
+}
+.page-3-texts{
+    font-size: 20px;
+}
+.page-3-button{
+    background-color: #d1bc00;
+    border: solid #d1bc00 2px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    z-index: 1;
+    width: 250px; 
+    margin-left: 43.5%;
+    border-radius: 50px;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 800px;
+}
